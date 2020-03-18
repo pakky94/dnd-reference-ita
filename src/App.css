@@ -1,38 +1,58 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .SearchView {
+  /* max-width: 1080px; */
+  max-width: 70rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.SearchView .SearchPanel {
+  margin: 0.3rem;
+}
+.SearchView .Searchbar {
+  width: 20rem;
+  font-size: 1.3rem;
+  margin: 0.4rem;
+}
+.SearchView .ClassList {
+  font-size: 1.3rem;
+  margin: 0.4rem;
+}
+
+.Spell-view {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.Spell-view .Spell-view-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.Spell-view .Spell-view-school {
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+.Spell-view .Spell-view-source {
+  text-align: right;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+.Spell-description {
+  text-indent: 20px;
+}
+.Spell-description p {
+  margin: 0;
+  padding: 0;
+  /* margin-bottom: 0px; */
+}
+.Spell-description ul {
+  margin: 0;
 }
